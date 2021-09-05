@@ -4,11 +4,35 @@
     android:layout_height="wrap_content"
     android:background="#444"
     >
-    <TextView        
+
+	<Button
+		android:id="@+id/btnSelectIme"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="SIMP" />
+
+	<Button
+		android:id="@+id/btnClose"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="90dp"
+		android:layout_marginLeft="90dp"
+		android:text="Close" />
+
+	<Button
+		android:id="@+id/btnDone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="180dp"
+		android:layout_marginLeft="180dp"
+		android:text="Done" />
+
+	<TextView
         android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:text="@string/keyboard_on"
     	android:layout_centerInParent="true"
     	android:textColor="#fff"
     />
+
 </RelativeLayout>
